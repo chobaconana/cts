@@ -29,7 +29,7 @@ form {
     font-family: "Noto Serif", serif;
     position: absolute;
     top: 56%; /* ここで相対位置を調整 */
-    left: 38%; /* ここで相対位置を調整 */
+    left: 36%; /* ここで相対位置を調整 */
     font-size: 100px;
     font-weight: bold; /* 太字に設定 */
     pointer-events: none; /* テキストのクリックイベントを無効にする */
