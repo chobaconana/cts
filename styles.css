@@ -28,8 +28,8 @@ form {
 #display {
     font-family: "Noto Serif", serif;
     position: absolute;
-    top: 76%; /* ここで相対位置を調整 */
-    left: 21%; /* ここで相対位置を調整 */
+    top: 50%; /* ここで相対位置を調整 */
+    left: 50%; /* ここで相対位置を調整 */
     font-size: 100px;
     font-weight: bold; /* 太字に設定 */
     pointer-events: none; /* テキストのクリックイベントを無効にする */
