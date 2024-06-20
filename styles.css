@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#text {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+
+.image-container img {
+    display: block;
+    width: 100%; /* 画像の幅を親要素に合わせる */
+    max-width: 500px; /* 必要に応じて最大幅を設定 */
+    height: auto; /* 画像の高さを自動で調整 */
+}
+
+#display {
+    font-family: "Noto Serif", serif;
+    position: absolute;
+    top: 76%; /* ここで相対位置を調整 */
+    left: 21%; /* ここで相対位置を調整 */
+    font-size: 100px;
+    font-weight: bold; /* 太字に設定 */
+    pointer-events: none; /* テキストのクリックイベントを無効にする */
+}
